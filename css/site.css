@@ -89,7 +89,7 @@ h1 {
 }
 
 /* Main marketing message and sign up button */
-.frontview {
+.mountainview {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   height: 550px;
@@ -110,7 +110,7 @@ h1 {
     margin-bottom: 0px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
-  .frontview {
+  .mountainview {
     border-bottom: 0;
   }
 }
