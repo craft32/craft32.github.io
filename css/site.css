@@ -2,7 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #d7d7d7 url(./images/bg.jpg);
+  background: #d7d7d7 url("/images/bg.jpg");  
   font-family: 'PT Sans', Helvetica, sans-serif;
 }
 
