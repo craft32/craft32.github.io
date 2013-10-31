@@ -89,11 +89,11 @@ h1 {
 }
 
 /* Main marketing message and sign up button */
-.about {
+.frontview {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  height: 420px;
-  margin-top: 100px;
+  height: 550px;
+  background: #d7d7d7 url("/images/mountain.jpg");  
 }
 
 
@@ -107,10 +107,10 @@ h1 {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
-  .about {
+  .frontview {
     border-bottom: 0;
   }
 }
