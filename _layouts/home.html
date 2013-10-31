@@ -2,33 +2,15 @@
 <html lang="en">
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
-    {% include header.html %}
+    {% include css.html %}
   </head>
-  <body class="bs-docs-home">
-
-    <!-- Page content of course! -->
-    {{ content }}
-
-    <footer class="container" role="contentinfo">
-
-      <ul class="bs-masthead-links">
-        <li>
-          <a href="{{ page.base_url }}blog">blog</a>
-        </li>
-        <li>
-          <a href="http://github.com/hotrannam">github</a>
-        </li>
-        <li>
-          <a href="http://twitter.com/hotrannam">twitter</a>
-        </li>
-        <li>
-          <a href="{{ page.base_url }}about">about</a>
-        </li>
-      </ul>
-    </footer>
-
+  <body>
+    <div class="container">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
     <!-- JS and analytics only. -->
-    {% include footer.html %}
-
+    {% include js.html %}
   </body>
 </html>
