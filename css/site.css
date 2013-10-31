@@ -77,6 +77,9 @@ h1 {
   font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
   font-size: 12pt;
 }
+.footer a, a:hover {
+  color: rgba(20, 20, 20, 0.9);
+}
 
 /* Customize container */
 @media (min-width: 768px) {
@@ -90,7 +93,8 @@ h1 {
 
 .mountain-image {
   height: 640px;
-  width: 930px;  
+  width: 930px;
+  margin-top: 20px;
 }
 
 .hello {
