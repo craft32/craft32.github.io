@@ -1,0 +1,116 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d7d7d7 url(./images/bg.jpg);
+  font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  color: rgba(20, 20, 20, 0.9);
+}
+
+a {
+  color: rgba(10, 10, 110, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(10, 10, 110, 1);
+}
+
+p a {
+  text-decoration: underline;
+}
+h1, h2, h3, h4, nav a {
+  font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+
+.www {
+  font-size: 35px;
+  color: rgba(20, 20, 20, 0.9);
+  font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
+}
+
+.nav a, nav ul li a:hover {
+  color: rgba(20, 20, 20, 0.9);
+}
+.nav a{
+  display: block;
+  font-size: 1.4em;
+  padding: 32px 25px 22px 25px;
+  position: relative;
+  color: rgba(20, 20, 20, 0.9);
+  opacity: 1;
+  font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid rgba(50,50,50,0.1);
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid rgba(50,50,50,0.1);
+  font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
+  font-size: 12pt;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.about {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  height: 420px;
+  margin-top: 100px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .about {
+    border-bottom: 0;
+  }
+}
