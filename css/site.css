@@ -30,13 +30,13 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-.brand {
+.www {
   font-size: 35px;
   font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
   color: rgba(20, 20, 20, 0.9);
 }
 
-.brand a, a:hover {
+.www a, a:hover {
   color: rgba(10, 10, 110, 1);
   text-decoration: none !important;
 }
