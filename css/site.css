@@ -97,10 +97,8 @@ h1 {
 }
 
 .mountain-image {
-  /*height: 640px;
-  width: 930px;*/
-  margin-top: 20px;
   max-width: 100%;
+  margin-top: 20px;
 }
 
 .hello {
