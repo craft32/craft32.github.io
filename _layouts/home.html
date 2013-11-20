@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     {% include css.html %}
   </head>
   <body>
     <div class="container">
       {% include header.html %}
-      {{ content }}
+      <div class="body"> 
+        {{ content }}
+      </div>
       {% include footer.html %}
     </div>
-    <!-- JS and analytics only. -->
     {% include js.html %}
   </body>
 </html>

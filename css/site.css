@@ -30,13 +30,13 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-.www {
+.brand {
   font-size: 35px;
   font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
   color: rgba(20, 20, 20, 0.9);
 }
 
-.www a, a:hover {
+.brand a, a:hover {
   color: rgba(10, 10, 110, 1);
   text-decoration: none !important;
 }
@@ -55,6 +55,9 @@ h1 {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
+.body {
+  margin-top: 20px;
+}
 .header,
 .footer {
   padding-left: 0px;
@@ -75,7 +78,7 @@ h1 {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  padding-top: 10px;
   color: #777;
   border-top: 5px solid rgba(50,50,50,0.1);
   font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
@@ -97,7 +100,6 @@ h1 {
 
 .mountain-image {
   max-width: 100%;
-  margin-top: 20px;
 }
 
 .hello {
