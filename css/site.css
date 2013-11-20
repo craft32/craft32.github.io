@@ -37,6 +37,11 @@ h1 {
   color: rgba(20, 20, 20, 0.9);
 }
 
+.www a, a:hover {
+  color: rgba(10, 10, 110, 1);
+  text-decoration: none !important;
+}
+
 .nav a, nav ul li a:hover {
   color: rgba(20, 20, 20, 0.9);
 }
@@ -59,7 +64,7 @@ h1 {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid rgba(50,50,50,0.1);
+  border-bottom: 5px solid rgba(50,50,50,0.1);
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -73,7 +78,7 @@ h1 {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid rgba(50,50,50,0.1);
+  border-top: 5px solid rgba(50,50,50,0.1);
   font-family: 'OFL Sorts Mill Goudy TT', georgia, times, serif;
   font-size: 12pt;
 }
@@ -92,9 +97,10 @@ h1 {
 }
 
 .mountain-image {
-  height: 640px;
-  width: 930px;
+  /*height: 640px;
+  width: 930px;*/
   margin-top: 20px;
+  max-width: 100%;
 }
 
 .hello {
